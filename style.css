@@ -199,10 +199,19 @@ footer{
   margin-top: 10px;
   grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
   overflow: hidden;
-  gap: 70px 20px;
+  gap: 70px 90px;
   padding-top: 5vh;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.card{
+  width: 350px;
+  height: 200px;
+  background: #fff;
+  border-radius: 20px;
+  color: #000;
+  
 }
 
 .formHero{
